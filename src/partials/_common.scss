@@ -43,3 +43,33 @@ img {
 #block {
     display: block;
 }
+
+// SECTION WITH BACKGROUND
+
+.with_bg {
+    background-color: $brand_section_background_color;
+    display: flex;
+    flex-direction: column;
+        h3 {
+            text-align: center;
+            color: $brand_text_color;
+            padding: 35px 0;
+        }
+}
+
+.three_pics {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.three_pics img {
+    width: 100px ;
+    height: auto;
+}
+
+.central_pic {
+    width: 250px;
+    height: auto;
+    align-self: center;
+    padding: 80px 0;
+}
