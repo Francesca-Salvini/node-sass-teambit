@@ -1,0 +1,35 @@
+.left-sect {
+    width: 50%;
+
+    h1, p, span {
+        color: $brand_text_color;
+        
+    }
+
+    h1 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    p {
+        padding-bottom: 35px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    span:last-child {
+        padding-top: 15px;
+    }
+
+    button {
+        color: white;
+        background-color: $brand_button_color;
+        padding: 6px 7px;
+    }
+}
+
+.right-sect {
+    width: 50%;
+}

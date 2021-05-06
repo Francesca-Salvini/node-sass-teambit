@@ -1,17 +1,45 @@
+// RESET
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+// BODY
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+// WRAPPER WIDTH 80%
 .wrapper {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     
+}
+
+// HR
+
+hr {
+    color: #584441;
+    width: 80%;
+    margin: auto;
+}
+
+//JUMBOTRON
+.jumbotron {
+    display: flex;
+}
+
+// IMG
+
+img {
+    width: 100%;
+}
+
+// DISPLAY BLOCK
+
+#block {
+    display: block;
 }
