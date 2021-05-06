@@ -1,0 +1,14 @@
+button {
+    border: 1px solid $brand_button_color;
+    color: $brand_button_color;
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px 7px;
+    font-weight: 300;
+}
+
+button img {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}

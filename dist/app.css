@@ -1,1 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: 1px solid #2e478f;
+  color: #2e478f;
+  background-color: white;
+  border-radius: 6px;
+  padding: 10px 7px;
+  font-weight: 300;
+}
+
+button img {
+  width: 15px;
+  height: 15px;
+  vertical-align: bottom;
+}
+
+.wrapper {
+  border-bottom: 1px solid #584441;
+}
+.wrapper .logo {
+  padding: 15px 0;
+}
+.wrapper nav {
+  align-self: center;
+}
+.wrapper nav ul {
+  list-style-type: none;
+}
+.wrapper nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.wrapper nav ul li a {
+  color: #584441;
+  text-decoration: none;
+}
