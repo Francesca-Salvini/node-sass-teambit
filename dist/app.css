@@ -1,6 +1,6 @@
 button {
-  border: 1px solid #2e478f;
-  color: #2e478f;
+  border: 1px solid #3E14E9;
+  color: #3E14E9;
   background-color: white;
   border-radius: 6px;
   padding: 10px 7px;
@@ -52,8 +52,9 @@ h1, p, span {
 
 button {
   color: white;
-  background-color: #2e478f;
+  background-color: #3E14E9;
   padding: 6px 7px;
+  cursor: pointer;
 }
 
 img {
@@ -121,6 +122,36 @@ img {
 
 .left-sect.align-right {
   transform: translate(60%, 0);
+}
+
+footer {
+  display: flex;
+  padding: 30px 0;
+}
+footer .logo-section-footer {
+  font-size: 13px;
+  width: 15%;
+}
+footer .logo-section-footer p {
+  display: inline-block;
+}
+footer .logo-section-footer img {
+  width: 100px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  cursor: pointer;
+  padding: 5px 0;
+  font-weight: 600;
+  color: #7F14D4;
+  font-size: 13px;
+}
+footer ul li:first-child {
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .wrapper .logo {
@@ -220,4 +251,8 @@ img {
 .buttons span {
   text-align: center;
   padding-top: 10px;
+}
+
+.menu-footer:last-child {
+  width: 10%;
 }

@@ -48,6 +48,7 @@ button {
     color: white;
     background-color: $brand_button_color;
     padding: 6px 7px;
+    cursor: pointer;
 }
 
 // IMG
@@ -128,3 +129,43 @@ img {
 .left-sect.align-right {
     transform: translate(60%, 0);
 }
+
+// FOOTER
+
+footer {
+    display: flex;
+    padding: 30px 0;
+    .logo-section-footer {
+        font-size: 13px;
+        
+        width: 15%;
+
+        p {
+            display: inline-block;
+        }
+        img {
+            width: 100px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            cursor: pointer;
+            padding: 5px 0;
+            font-weight: 600;
+            color: $brand_text_color;
+            font-size: 13px;
+            &:first-child {
+                font-size: 18px;
+                padding-bottom: 10px;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+}
+
+
