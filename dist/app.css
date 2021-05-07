@@ -154,6 +154,12 @@ footer ul li:first-child {
 .wrapper .logo img {
   width: 150px;
 }
+.wrapper .burger {
+  opacity: 0;
+  padding-top: 30px;
+  color: #7F14D4;
+  font-size: 20px;
+}
 .wrapper nav {
   align-self: center;
 }
@@ -254,6 +260,11 @@ footer ul li:first-child {
 @media all and (max-width: 772px) {
   header nav {
     display: none;
+  }
+
+  header .burger {
+    opacity: 1;
+    display: block;
   }
 
   .jumbotron {

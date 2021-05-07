@@ -6,6 +6,13 @@
         }
         padding-top: 15px;
     }
+
+    .burger {
+        opacity: 0;
+        padding-top: 30px;
+        color: $brand_text_color;
+        font-size: 20px;
+    }
     
     nav {
         align-self: center;
