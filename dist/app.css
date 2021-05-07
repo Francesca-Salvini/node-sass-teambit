@@ -30,7 +30,7 @@ body {
 }
 
 h1, p, span {
-  color: #584441;
+  color: #7F14D4;
 }
 
 .wrapper {
@@ -41,7 +41,7 @@ h1, p, span {
 }
 
 .hr {
-  border-bottom: 1px solid #584441;
+  border-bottom: 1px solid #0E14EE;
   width: 80%;
   margin: auto;
 }
@@ -65,13 +65,13 @@ img {
 }
 
 .with_bg {
-  background-color: #ffe7d1;
+  background-color: #0414b3;
   display: flex;
   flex-direction: column;
 }
 .with_bg h1, .with_bg h3 {
   text-align: center;
-  color: #584441;
+  color: #7F14D4;
   padding: 35px 0;
 }
 
@@ -100,7 +100,7 @@ img {
 }
 
 .text {
-  color: #584441;
+  color: #7F14D4;
 }
 .text h3, .text p, .text a {
   padding: 20px 0;
@@ -124,7 +124,10 @@ img {
 }
 
 .wrapper .logo {
-  padding: 15px 0;
+  padding-top: 15px;
+}
+.wrapper .logo img {
+  width: 150px;
 }
 .wrapper nav {
   align-self: center;
@@ -137,7 +140,7 @@ img {
   padding: 0 10px;
 }
 .wrapper nav ul li a {
-  color: #584441;
+  color: #7F14D4;
   text-decoration: none;
 }
 
@@ -163,7 +166,7 @@ img {
 }
 
 .with-bg h3 {
-  color: #584441;
+  color: #7F14D4;
   text-align: center;
 }
 
@@ -172,7 +175,7 @@ img {
 }
 .single_pic p {
   font-size: 11px;
-  color: #584441;
+  color: #7F14D4;
 }
 
 .last h1 {
@@ -186,7 +189,7 @@ img {
   margin: auto;
   font-size: 12px;
   padding: 20px;
-  border: 1px solid #584441;
+  border: 1px solid #7F14D4;
   border-radius: 10px;
 }
 
