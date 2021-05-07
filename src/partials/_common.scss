@@ -16,6 +16,11 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+h1, p, span {
+    color: $brand_text_color;
+    
+}
+
 // WRAPPER WIDTH 80%
 .wrapper {
     width: 80%;
@@ -38,6 +43,13 @@ body {
     display: flex;
 }
 
+// BUTTONS
+button {
+    color: white;
+    background-color: $brand_button_color;
+    padding: 6px 7px;
+}
+
 // IMG
 
 img {
@@ -56,7 +68,7 @@ img {
     background-color: $brand_section_background_color;
     display: flex;
     flex-direction: column;
-        h3 {
+        h1, h3 {
             text-align: center;
             color: $brand_text_color;
             padding: 35px 0;
@@ -111,4 +123,8 @@ img {
         height: auto;
         padding-top: 50px;
     }
+}
+
+.left-sect.align-right {
+    transform: translate(60%, 0);
 }

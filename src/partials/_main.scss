@@ -2,11 +2,6 @@
 .left-sect {
     width: 50%;
 
-    h1, p, span {
-        color: $brand_text_color;
-        
-    }
-
     h1 {
         padding-top: 20px;
         padding-bottom: 10px;
@@ -24,11 +19,7 @@
         padding-top: 15px;
     }
 
-    button {
-        color: white;
-        background-color: $brand_button_color;
-        padding: 6px 7px;
-    }
+    
 }
 
 .right-sect {
@@ -54,8 +45,50 @@
     }
 }
 
-// SECTION WITH 2 COLUMNS
+// LAST SECTION WITH BG COLOR
 
-.left-sect.align-right {
-    transform: translate(60%, 0);
+.last {
+    h1 {
+        font-size: 30px;
+        padding: 50px 0;
+    }
+}
+
+.speech {
+    background-color: white;
+    width: 45%;
+    margin: auto;
+    font-size: 12px;
+    padding: 20px;
+    border: 1px solid $brand_text_color;
+    border-radius: 10px;
+}
+
+.speech img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.founders {
+    display: flex;
+}
+
+#co-founders {
+    color: #7171aa;
+}
+
+.description {
+    align-self: center;
+}
+
+.buttons {
+    margin: auto;
+    padding: 30px 0;
+}
+
+.buttons span {
+    text-align: center;
+    padding-top: 10px;
 }
