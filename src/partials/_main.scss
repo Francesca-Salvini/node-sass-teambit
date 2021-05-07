@@ -56,10 +56,6 @@
 
 // SECTION WITH 2 COLUMNS
 
-.draw {
-    img {
-        width: 40%;
-        height: auto;
-        padding-top: 50px;
-    }
+.left-sect.align-right {
+    transform: translate(60%, 0);
 }
