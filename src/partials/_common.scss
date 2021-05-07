@@ -21,8 +21,8 @@ body {
 
 // HR
 
-hr {
-    color: #584441;
+.hr {
+    border-bottom: 1px solid #584441;
     width: 80%;
     margin: auto;
 }
@@ -64,7 +64,8 @@ img {
 
 .three_pics img {
     width: 100px ;
-    height: auto;
+    height: 100px;
+    object-fit: contain;
 }
 
 .central_pic {

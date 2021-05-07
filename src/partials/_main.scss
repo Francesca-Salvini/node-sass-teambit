@@ -35,5 +35,21 @@
     width: 50%;
 }
 
+// SECOND SECTION WITH BACKGROUND COLOR 
 
+.with-bg {
+    h3 {
+        color: $brand_text_color;
+        text-align: center;
+        
+    }
+    
+}
 
+.single_pic {
+    text-align: center;
+    p {
+        font-size: 11px;
+        color: $brand_text_color;
+    }
+}
