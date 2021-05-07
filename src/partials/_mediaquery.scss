@@ -5,12 +5,6 @@
         display: none;
     }
 
-    header .burger {
-        opacity: 1;
-        display: block;
-
-    }
-
     // JUMBOTRON
     .jumbotron {
         display: block;
@@ -84,4 +78,13 @@
     }
 
 
+}
+
+@media all and (min-width: 773px) {
+
+    //BURGER MENU
+
+    .burger {
+        display: none;
+    }
 }

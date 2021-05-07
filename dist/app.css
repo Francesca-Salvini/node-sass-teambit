@@ -155,7 +155,6 @@ footer ul li:first-child {
   width: 150px;
 }
 .wrapper .burger {
-  opacity: 0;
   padding-top: 30px;
   color: #7F14D4;
   font-size: 20px;
@@ -262,11 +261,6 @@ footer ul li:first-child {
     display: none;
   }
 
-  header .burger {
-    opacity: 1;
-    display: block;
-  }
-
   .jumbotron {
     display: block;
   }
@@ -321,5 +315,10 @@ footer ul li:first-child {
   .menu-footer:last-child {
     width: 20%;
     margin: auto;
+  }
+}
+@media all and (min-width: 773px) {
+  .burger {
+    display: none;
   }
 }
