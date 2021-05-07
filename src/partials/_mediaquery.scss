@@ -1,0 +1,81 @@
+@media all and (max-width: 772px) {
+
+    // HEADER
+    header nav {
+        display: none;
+    }
+
+    // JUMBOTRON
+    .jumbotron {
+        display: block;
+        .left-sect {
+            width: 100%;
+            
+            #block {
+                text-align: center;
+            }
+        }
+
+        .right-sect {
+            width: 100%;
+            
+        }
+    }
+
+    //SECTIONS WITH 2 COLS
+
+    .two-cols {
+        display: block;
+
+        .left-sect {
+            width: 100%;
+            text-align: -webkit-center;
+        }
+
+        .left-sect.align-right {
+            transform: none;
+        }
+
+        .right-sect {
+            width: 100%;
+            text-align: -webkit-center;
+        }
+    }
+
+    // LAST SECTION WITH BG COLOR
+
+    .founders {
+        display: block;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    //FOOTER
+
+    footer .wrapper {
+        display: block;
+
+        .logo-section-footer {
+            text-align: center;
+            margin: auto;
+
+            img {
+                width: 100px;
+                margin-left: -20px;
+            }
+        }
+    }
+
+    .menu-footer {
+        text-align: center;
+
+        &:last-child {
+            width: 20%;
+            margin: auto;
+        }
+    }
+
+
+}

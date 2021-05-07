@@ -19,12 +19,6 @@ button img {
   box-sizing: border-box;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -255,4 +249,66 @@ footer ul li:first-child {
 
 .menu-footer:last-child {
   width: 10%;
+}
+
+@media all and (max-width: 772px) {
+  header nav {
+    display: none;
+  }
+
+  .jumbotron {
+    display: block;
+  }
+  .jumbotron .left-sect {
+    width: 100%;
+  }
+  .jumbotron .left-sect #block {
+    text-align: center;
+  }
+  .jumbotron .right-sect {
+    width: 100%;
+  }
+
+  .two-cols {
+    display: block;
+  }
+  .two-cols .left-sect {
+    width: 100%;
+    text-align: -webkit-center;
+  }
+  .two-cols .left-sect.align-right {
+    transform: none;
+  }
+  .two-cols .right-sect {
+    width: 100%;
+    text-align: -webkit-center;
+  }
+
+  .founders {
+    display: block;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  footer .wrapper {
+    display: block;
+  }
+  footer .wrapper .logo-section-footer {
+    text-align: center;
+    margin: auto;
+  }
+  footer .wrapper .logo-section-footer img {
+    width: 100px;
+    margin-left: -20px;
+  }
+
+  .menu-footer {
+    text-align: center;
+  }
+  .menu-footer:last-child {
+    width: 20%;
+    margin: auto;
+  }
 }
