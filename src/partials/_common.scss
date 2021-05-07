@@ -74,3 +74,26 @@ img {
     align-self: center;
     padding: 80px 0;
 }
+
+// SECTION WITH 2 COLUMNS
+
+.two-cols {
+    display: flex;
+}
+
+.text {
+    color: $brand_text_color;
+
+    h3, p, a {
+        padding: 20px 0;
+    } 
+
+    p {
+        width: 40%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #7171aa;
+    }
+}

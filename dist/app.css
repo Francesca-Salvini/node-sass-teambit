@@ -78,6 +78,24 @@ img {
   padding: 80px 0;
 }
 
+.two-cols {
+  display: flex;
+}
+
+.text {
+  color: #584441;
+}
+.text h3, .text p, .text a {
+  padding: 20px 0;
+}
+.text p {
+  width: 40%;
+}
+.text a {
+  text-decoration: none;
+  color: #7171aa;
+}
+
 .wrapper .logo {
   padding: 15px 0;
 }
@@ -136,4 +154,10 @@ img {
 .single_pic p {
   font-size: 11px;
   color: #584441;
+}
+
+.draw img {
+  width: 40%;
+  height: auto;
+  padding-top: 50px;
 }
